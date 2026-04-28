@@ -2,7 +2,7 @@ import { describe, it, expect } from "vitest";
 import { buildMessages } from "./buildMessages";
 import type { UserTurn, AssistantMessage } from "@/types";
 
-const params = { selectedModelIds: [], systemPrompt: "", temperature: 0.7 };
+const params = { selectedModelIds: [], systemPrompt: "", temperature: 0.7, modelParams: {} };
 
 function makeTurn(text: string): UserTurn {
   return { id: "u1", content: [{ type: "text", text }], params, timestamp: 0 };

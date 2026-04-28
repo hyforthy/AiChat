@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeEach } from "vitest";
 import { useConversationStore } from "./conversationStore";
 
-const params = { selectedModelIds: ["m1"], systemPrompt: "", temperature: 0.7 };
+const params = { selectedModelIds: ["m1"], systemPrompt: "", temperature: 0.7, modelParams: {} as any };
 
 beforeEach(() => {
   useConversationStore.setState({ conversations: [], currentId: null });
