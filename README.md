@@ -17,6 +17,10 @@
 - **主题**：深色 / 浅色 / 跟随系统
 - **桌面端**：Tauri 打包，Rust 后端绕过 WebView CORS 限制
 
+![聊天界面](docs/imgs/chat1.png)
+
+![多模型对比](docs/imgs/chat2.png)
+
 ---
 
 ## 快速开始
@@ -112,6 +116,8 @@ src/
 | Claude Sonnet 4.7 | Anthropic | 紫 `#a78bfa` |
 
 在设置中可添加自定义模型（任意 OpenAI 兼容端点）。自定义模型自动从 6 种颜色中轮转分配。
+
+![配置示例](docs/imgs/config-example.png)
 
 ---
 
